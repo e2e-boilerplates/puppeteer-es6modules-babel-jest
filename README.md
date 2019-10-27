@@ -1,6 +1,6 @@
-# Puppeteer (es6modules, babel, jest)
+# Puppeteer: (es6 modules, babel, jest)
 
-Puppeteer end-to-end test automation boilerplate project. Using ES6 modules and jest.
+Puppeteer end-to-end test automation boilerplate project. Using ES6 modules, babel and jest.
 
 ## Getting Started
 
