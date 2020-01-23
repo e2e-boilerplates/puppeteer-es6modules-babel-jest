@@ -1,4 +1,4 @@
-name: puppeteer-commonjs-jasmine
+name: puppeteer-es6modules-babel-jest
 
 on: [push]
 
