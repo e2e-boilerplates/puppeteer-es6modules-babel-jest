@@ -1,6 +1,6 @@
 # Puppeteer: (es6 modules, babel, jest)
 
-[![GitHub Actions status | e2e-boilerplates/ppuppeteer-commonjs-jasmine](https://github.com/e2e-boilerplates/puppeteer-es6modules-babel-jest/workflows/NodeCI/badge.svg)](https://github.com/e2e-boilerplates/puppeteer-es6modules-babel-jest/actions?workflow=NodeCI)
+[![GitHub Actions status | e2e-boilerplates/ppuppeteer-commonjs-jasmine](https://github.com/e2e-boilerplates/puppeteer-es6modules-babel-jest/workflows/ppuppeteer-commonjs-jasmine/badge.svg)](https://github.com/e2e-boilerplates/puppeteer-es6modules-babel-jest/actions?workflow=ppuppeteer-commonjs-jasmine)
 
 Puppeteer end-to-end test automation boilerplate project. Using ES6 modules, babel and jest.
 
