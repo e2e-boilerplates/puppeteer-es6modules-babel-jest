@@ -27,7 +27,7 @@ describe("Sandbox", () => {
 
   test("should be on the sandbox", async () => {
     await page.waitFor("h1");
-    const title = await page.$eval("h1", (el: { textContent: any }) => {
+    const title = await page.$eval("h1", (el) => {
       return el.textContent;
     });
 
