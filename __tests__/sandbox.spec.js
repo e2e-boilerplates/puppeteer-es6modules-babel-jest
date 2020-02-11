@@ -15,6 +15,7 @@ describe("Sandbox", () => {
       .goto("https://e2e-boilerplates.github.io/sandbox/", {
         waitUntil: "networkidle0"
       })
+      // tslint:disable-next-line:no-empty
       .catch(() => {});
   });
 
@@ -26,7 +27,9 @@ describe("Sandbox", () => {
 
   test("should be on the sandbox", async () => {
     await page.waitFor("h1");
-    const title = await page.$eval("h1", el => el.textContent);
+    const title = await page.$eval("h1", (el: { textContent: any }) => {
+      return el.textContent;
+    });
 
     expect(await page.title()).toEqual("Sandbox");
     expect(title).toEqual("Sandbox");
