@@ -1,4 +1,4 @@
-name: puppeteer-es6modules-babel-jest
+name: puppeteer-es6-modules-babeljs-jest-expect
 
 on: 
   push:
@@ -16,11 +16,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: INSTALL PACKAGES
+    - name: INSTALL 
       run: |
         npm ci
       env:
         CI: true
-    - name: RUN TESTS
+    - name: LINT
+      run: |
+        npm run lint
+    - name: TESTS
       run: |
         npm run test
