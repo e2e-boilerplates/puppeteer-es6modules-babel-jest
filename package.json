@@ -26,16 +26,16 @@
   },
   "keywords": [
     "babeljs",
-    "es modules",
+    "es",
     "expect",
     "jest",
     "puppeteer"
   ],
   "license": "MIT",
-  "name": "puppeteer-es6-modules-babeljs-jest-expect",
+  "name": "puppeteer-es-modules-babeljs-jest-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/puppeteer-es6-modules-babeljs-jest-expect.git"
+    "url": "git+https://github.com/e2e-boilerplates/puppeteer-es-modules-babeljs-jest-expect.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
