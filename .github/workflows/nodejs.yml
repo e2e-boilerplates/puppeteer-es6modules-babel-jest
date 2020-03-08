@@ -1,4 +1,4 @@
-name: puppeteer-es-modules-babeljs-jest-expect
+name: puppeteer-es-modules-babel-jest-expect
 "on":
   push: null
   schedule:
